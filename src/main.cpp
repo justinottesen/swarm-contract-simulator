@@ -1,6 +1,6 @@
-#include <iostream>
+#include <logger.hpp>
 
 auto main() -> int {
-  std::cout << "Hello, World!\n";
+  LOG(INFO) << "Hello, World!";
   return 0;
 }
